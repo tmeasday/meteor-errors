@@ -6,9 +6,9 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   // This doesn't seem to work
-  // api.versionsFrom('METEOR-CORE@0.9.0')
+  api.versionsFrom('METEOR-CORE@0.9.0-preview2')
   
-  api.use(['minimongo@1.0.0', 'mongo-livedata@1.0.0', 'templating@1.0.0'], 'client');
+  api.use(['minimongo', 'mongo-livedata', 'templating'], 'client');
 
   api.add_files(['errors.js', 'errors_list.html', 'errors_list.js'], 'client');
   
