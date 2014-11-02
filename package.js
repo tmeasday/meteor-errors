@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A pattern to display application errors to the user",
-  version: "0.2.1",
+  version: "0.2.2",
   name: "twigatech:errors",
   description: "A pattern to display application errors to the user",
   homepage: "https://github.com/twigatech/meteor-errors",
